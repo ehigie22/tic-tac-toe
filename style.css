@@ -1,0 +1,146 @@
+@import url('https://fonts.googleleapis.com/css2?family=poppins&display=swap');
+body{
+    font-family: "poppins", sans-serif;
+    background-color:  #8c52ff;
+}
+section{
+    text-align: center;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 75px;
+    box-shadow: 0px 10px 36px 16px rgba(0, 0, 0, 0.1);
+}
+.game--title{
+    padding-top: 20px;
+}
+.game--container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 150px;
+    margin: 120px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cell {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    cursor: pointer;
+    line-height:60px ;
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+}
+button{
+    margin-bottom: 20px;
+    height: 30px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #8c52ff;
+    cursor: pointer;
+}
+button:hover{
+    transition: 0.25s;
+    background-color: #c1a2fe;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(135deg, #8052, rgb(87, 74, 79));
+}
+html{
+    font-size: 16px;
+}
+.wrapper{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.container{
+    width: 70vmin;
+    height: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+}
+.button_option{
+    background: whitesmoke;
+    height: 22vmin;
+    width: 22vmin;
+    border: none;
+    border-radius: 8px;
+    font-size: 57px;
+    color: blueviolet;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+       
+}
+#restart{
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    color: white;
+    background: blue;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+    margin: 1em auto;
+} */
+/* .popup{
+    background: linear-gradient(135deg, #8052, rgb(87, 74, 79));
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    gap: 1em;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12vmin;
+    align-items: center;
+    z-index: 2;
+}
+#new-game{
+    font-size: 0.6em;
+    padding: ;
+    color: white;
+    border-radius: 12px;
+    background-color: #000;
+    padding: 0.5em 1em;
+} */
+
